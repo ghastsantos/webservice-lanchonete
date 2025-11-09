@@ -42,6 +42,8 @@
 - Revisar `GlobalExceptionHandler` para responder perguntas sobre tratamento de erro.
 - Confirmar, antes da apresentação, que `.\mvnw.cmd test` passa sem falhas.
 - `.\mvnw.cmd spring-boot:run` comando para rodar projeto.
+- Swagger UI: `http://localhost:8080/swagger-ui.html`
+- Console H2: `http://localhost:8080/h2-console`
 - Rodar testes específicos quando necessário:
   - `.\mvnw.cmd -Dtest=br.pucpr.lanchonete.controller.ClienteControllerTest test`
   - `.\mvnw.cmd -Dtest=br.pucpr.lanchonete.service.ClienteServiceTest test`
