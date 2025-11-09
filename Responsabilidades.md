@@ -42,3 +42,10 @@
 - Revisar `GlobalExceptionHandler` para responder perguntas sobre tratamento de erro.
 - Confirmar, antes da apresentação, que `.\mvnw.cmd test` passa sem falhas.
 - `.\mvnw.cmd spring-boot:run` comando para rodar projeto.
+- Rodar testes específicos quando necessário:
+  - `.\mvnw.cmd -Dtest=br.pucpr.lanchonete.controller.ClienteControllerTest test`
+  - `.\mvnw.cmd -Dtest=br.pucpr.lanchonete.service.ClienteServiceTest test`
+  - `.\mvnw.cmd -Dtest=br.pucpr.lanchonete.controller.ProdutoControllerTest test`
+  - `.\mvnw.cmd -Dtest=br.pucpr.lanchonete.service.ProdutoServiceTest test`
+  - `.\mvnw.cmd -Dtest=br.pucpr.lanchonete.controller.PedidoControllerTest test`
+  - `.\mvnw.cmd -Dtest=br.pucpr.lanchonete.service.PedidoServiceTest test`
